@@ -7,6 +7,10 @@ import scrapy
 # paragraph = response.xpath('//div[@class="field-item even"]//p[not(@class)]/text()').get()  
 
 
+#API DATA SET 
+# Aqui se encuentra los datos scrapeados públicos
+# https://app.zyte.com/api/v2/datasets/9klYNw4t8zx/download?format=json
+
 class SpiderCIA(scrapy.Spider):
     name = 'cia'
     start_urls = [
